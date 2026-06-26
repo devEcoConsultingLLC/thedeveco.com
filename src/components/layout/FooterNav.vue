@@ -48,7 +48,7 @@
       </div>
 
       <div class="footer-bottom">
-        <span>{{ currentYear }} | devEco Consulting LLC</span>
+        <span>{{ currentYear }} | devEco Consulting LLC | <router-link to="/privacy">Privacy</router-link></span>
         <span>EDGE AI FOUNDATION | <a href="https://www.edgeaifoundation.org/" target="_blank">Scholarship Partner</a></span>
       </div>
     </div>

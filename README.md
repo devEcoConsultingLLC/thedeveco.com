@@ -62,9 +62,10 @@ src/
 │       ├── LogoCarousel.vue    # Auto-scrolling partner/client logo carousel
 │       ├── EcosystemTile.vue  # Clickable card for ecosystem listings
 │       ├── EcosystemModal.vue # Detail modal for ecosystem listings
+│       ├── CookieConsent.vue  # Fixed-bottom cookie consent notice
 │       └── ProcessVisualization.vue
 ├── router/
-│   └── index.ts               # 12 routes
+│   └── index.ts               # 13 routes
 ├── stores/
 │   └── counter.ts             # Pinia boilerplate
 └── views/
@@ -79,6 +80,7 @@ src/
     ├── TeamView.vue            # Team/About page with rocket-portal animation
     ├── ContactView.vue         # Contact form and office hours
     ├── HeimdallView.vue        # Hidden easter egg page (not in nav)
+    ├── PrivacyView.vue         # Privacy and cookie statement (linked from footer)
     └── AboutView.vue           # Boilerplate placeholder (not in router)
 
 public/
@@ -106,6 +108,7 @@ public/
 | Community | `/community` | Community | Community values, events, Discord CTA |
 | Team | `/team` | About dropdown | The Collective team section, rocket-portal animation |
 | Contact | `/contact` | Contact Us CTA | Contact options, form, virtual office hours |
+| Privacy | `/privacy` | Footer link | Privacy and cookie statement (linked from footer) |
 
 `/about` redirects to `/team` to preserve backward compatibility with older links. A hidden `/heimdall` easter egg route exists but is not linked from the nav.
 
@@ -159,4 +162,4 @@ This project uses bible files for session-agnostic development:
 
 *devEco Consulting LLC — DevRel from the workshop floor.*
 
-*Last updated: 2026-06-25*
+*Last updated: 2026-06-26*

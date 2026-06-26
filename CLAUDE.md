@@ -77,8 +77,8 @@ thedeveco.com/
 │   │   └── tory.jpg
 │   └── trail-sandiego/       # Static export of EDGE AI Trail game (Next.js)
 ├── src/
-│   ├── App.vue               # Root component: HeaderNav + RouterView + FooterNav
-│   │                         # Contains ALL global CSS variables and base styles
+│   ├── App.vue               # Root component: HeaderNav + RouterView + FooterNav + CookieConsent
+│   │                         # Contains ALL global CSS variables and base styles; mounts the global CookieConsent banner
 │   ├── main.ts               # Entry point: Font Awesome setup, Pinia, Router, SPA redirect handler
 │   ├── assets/
 │   │   ├── base.css          # Vue scaffolding CSS (mostly overridden by App.vue)
@@ -92,13 +92,14 @@ thedeveco.com/
 │   │   │   ├── LogoCarousel.vue        # Auto-scrolling logo carousel (pause-on-hover, CSS animation)
 │   │   │   ├── EcosystemTile.vue      # Clickable tile card for ecosystem listings
 │   │   │   ├── EcosystemModal.vue     # Detail modal for ecosystem listings (Teleport to body)
+│   │   │   ├── CookieConsent.vue      # Fixed-bottom cookie consent notice (first-visit, localStorage)
 │   │   │   └── ProcessVisualization.vue # 4-step process with FA icons (unused on current pages)
 │   │   ├── HelloWorld.vue    # Vue scaffolding (unused)
 │   │   ├── TheWelcome.vue    # Vue scaffolding (unused)
 │   │   ├── WelcomeItem.vue   # Vue scaffolding (unused)
 │   │   └── icons/            # Vue scaffolding icon components (unused)
 │   ├── router/
-│   │   └── index.ts          # 12 routes: / /consultancy /ecosystem /devxrl /smrl /g2mrl /trl /community /team /about (redirect) /contact /heimdall
+│   │   └── index.ts          # 13 routes: / /consultancy /ecosystem /devxrl /smrl /g2mrl /trl /community /team /about (redirect) /contact /heimdall /privacy
 │   ├── stores/
 │   │   └── counter.ts        # Pinia boilerplate (unused)
 │   └── views/
@@ -113,6 +114,7 @@ thedeveco.com/
 │       ├── TeamView.vue       # Team/About page with rocket-portal SVG animation and Community Engine widget
 │       ├── ContactView.vue    # Contact form (simulated submission, no backend)
 │       ├── HeimdallView.vue   # Hidden easter egg page (not in nav)
+│       ├── PrivacyView.vue    # Privacy and cookies statement (linked from footer)
 │       └── AboutView.vue      # Boilerplate placeholder (not in router)
 ├── index.html                # Vite entry HTML
 ├── package.json
@@ -150,6 +152,7 @@ thedeveco.com/
 | `/about` | (redirect) | — | (redirects to /team) |
 | `/contact` | ContactView.vue | Lazy | Contact Us (CTA button) |
 | `/heimdall` | HeimdallView.vue | Lazy | (hidden — easter egg, not in nav) |
+| `/privacy` | PrivacyView.vue | Lazy | Privacy (footer link) |
 
 **Nav order**: About (dropdown) | Audits (dropdown) | Community (dropdown) | Explore (dropdown) | Contact Us (CTA)
 
@@ -290,6 +293,9 @@ Ecosystem listings in `EcosystemView.vue` are defined as a TypeScript array of `
 - `shortDescription`, `tags?`, `longDescription?`, `website?`, `socialLinks?`, `highlights?`
 - Listings are grouped into sections by category and rendered as `EcosystemTile` + `EcosystemModal` pairs
 
+### Cookie Consent
+The global `CookieConsent` banner (`src/components/ui/CookieConsent.vue`, mounted in `App.vue`) persists acceptance in `localStorage` under the key `deveco-cookie-consent` (value `'accepted'`). All storage access is wrapped in try/catch. This is the only use of `localStorage` in the app.
+
 ---
 
 ## Git Workflow
@@ -421,6 +427,12 @@ npm run lint         # ESLint with auto-fix
 - **Form**: Name, email, company, service dropdown, message textarea (simulated submission)
 - **Office hours**: Navy section with schedule details
 
+### PrivacyView (/privacy)
+- **Hero**: Navy background, centered, with a Privacy stamp eyebrow
+- **Statement**: Single readable column (720px max-width) with section headings (Overview, Information We Collect, Cookies and Local Storage, Third-Party Services, Your Choices, Contact, Changes)
+- **Honest to the current no-tracking state**: No analytics, no tracking, essential session storage only; discloses Google Fonts and GitHub Pages
+- *Note*: Linked from the footer bottom bar; reached by the global `CookieConsent` banner
+
 ---
 
 ## Adding a New Page (Step-by-Step)
@@ -479,3 +491,4 @@ When ending a session that made changes:
 
 *Last updated: 2026-06-26*
 *Bible file version: 1.0*
+
