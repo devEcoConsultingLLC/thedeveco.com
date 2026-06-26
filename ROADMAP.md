@@ -4,9 +4,9 @@
 
 ---
 
-## Current State (as of 2026-03-28)
+## Current State (as of 2026-06-25)
 
-The site is live at thedeveco.com with 7 pages, deployed via GitHub Pages. Core structure is stable. No active feature branches.
+The site is live at thedeveco.com, deployed via GitHub Pages. It has 10 nav-reachable pages (Home, Consultancy, Ecosystem, DevXRL, SMRL, G2MRL, TRL, Community, Team, Contact) plus an `/about` redirect to `/team` and a hidden `/heimdall` easter egg, for 12 routes total. The four readiness audit pages (DevXRL, SMRL, G2MRL, TRL) and the About, Audits, Community, and Explore nav structure are live. Core structure is stable. No active feature branches.
 
 ---
 
@@ -18,7 +18,6 @@ These items should be addressed before major new features:
 
 - [ ] **Remove unused Vue scaffolding files** — Delete `HelloWorld.vue`, `TheWelcome.vue`, `WelcomeItem.vue`, all icon components in `src/components/icons/`, `AboutView.vue`, and `src/stores/counter.ts`. Clean up any imports referencing them.
 - [ ] **Clean up base.css and main.css** — These contain leftover Vue create-app defaults that are overridden by App.vue. Consolidate needed styles into App.vue and simplify or remove these files.
-- [ ] **Delete outdated DEPLOYMENT.md** — References DigitalOcean App Platform which is no longer used. Deployment docs are now covered by CLAUDE.md and README.md.
 - [ ] **Remove standalone HTML prototypes** — `animation.html`, `hexanimate.html`, `mockup.html` in the root are development artifacts not part of the build. Archive or delete.
 
 ### Medium Priority
@@ -48,7 +47,7 @@ These items should be addressed before major new features:
 ### Ecosystem & Community
 
 - [ ] **Ecosystem listing management** — Currently all 20+ ecosystem entries are hardcoded in `EcosystemView.vue`. Consider extracting to a JSON/YAML data file or separate TypeScript module for easier content updates.
-- [ ] **portalNetwork stats integration** — The stats on ProductsView (36 servers, 80k+ users, 26 network) are hardcoded. Consider pulling live stats from the portalNetwork API.
+- [ ] **portalNetwork stats integration** — portalNetwork stats were previously shown on the Products page. That page is now /team (TeamView) and the portalNetwork, B3VY, and LaunchCue product cards were removed. If product cards return to the site, consider pulling live stats from the portalNetwork API instead of hardcoding them.
 
 ### Design & UX
 
@@ -91,8 +90,8 @@ Connect the site with devEco's broader platform:
 
 Items move here when finished, with the date and any relevant notes.
 
-*(No completed roadmap items yet — this is the initial roadmap creation.)*
+- 2026-06-25: Deleted outdated DEPLOYMENT.md (DigitalOcean references). Deployment is documented in CLAUDE.md and README.md.
 
 ---
 
-*Last updated: 2026-04-19*
+*Last updated: 2026-06-25*

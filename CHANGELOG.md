@@ -35,6 +35,8 @@
 - TRL section now includes a row of three summary badges (TRL, DevXRL, G2MRL).
 
 ### Changed
+- Synced README.md and ROADMAP.md with the current 12-route structure, the four audit pages, and LogoCarousel replacing ClientLogos.
+- Renamed the "Source Network" ecosystem client listing to "Source" in `src/views/EcosystemView.vue`.
 - Repository transferred from `github.com/thedeveco/thedeveco.com` to `github.com/devEcoConsultingLLC/thedeveco.com`. GitHub permanent redirect handles legacy URLs.
 - Updated the GitHub link in the Community dropdown (HeaderNav.vue) and Community footer column (FooterNav.vue) from `github.com/thedeveco` to `github.com/devEcoConsultingLLC`.
 - Updated the repository URL in `CLAUDE.md` Project Identity section.
@@ -70,6 +72,7 @@
 - *(none yet)*
 
 ### Removed
+- Deleted DEPLOYMENT.md (outdated DigitalOcean deployment guide) and removed its references from CLAUDE.md.
 - Removed the Services dropdown from HeaderNav entirely. Its contents were redistributed: Consultancy moved to the About dropdown, and the four audits moved to the new Audits dropdown.
 - Removed Ecosystem from the Explore dropdown (moved to the About dropdown).
 - Removed the Services column from FooterNav (replaced by About and Audits columns).
@@ -140,4 +143,4 @@
 
 *Changelog format: Each session that modifies the codebase adds entries under `[Unreleased]`. When a batch of changes is deployed and considered a release, the Unreleased section is renamed with a date header and a new Unreleased section is created.*
 
-*Last updated: 2026-04-19*
+*Last updated: 2026-06-25*
