@@ -59,12 +59,12 @@ src/
 │   │   ├── HeaderNav.vue      # Sticky nav with mobile menu + Community dropdown
 │   │   └── FooterNav.vue      # 4-column footer
 │   └── ui/
-│       ├── ClientLogos.vue    # Partner/client logo grid
+│       ├── LogoCarousel.vue    # Auto-scrolling partner/client logo carousel
 │       ├── EcosystemTile.vue  # Clickable card for ecosystem listings
 │       ├── EcosystemModal.vue # Detail modal for ecosystem listings
 │       └── ProcessVisualization.vue
 ├── router/
-│   └── index.ts               # 7 routes
+│   └── index.ts               # 12 routes
 ├── stores/
 │   └── counter.ts             # Pinia boilerplate
 └── views/
@@ -72,9 +72,14 @@ src/
     ├── ConsultancyView.vue     # Services, process, team bios
     ├── EcosystemView.vue       # Ecosystem directory (20+ listings)
     ├── DevXRL.vue              # DevXRL audit product page (scroll-snap)
+    ├── SMRL.vue               # SMRL audit product page (scroll-snap)
+    ├── G2MRL.vue              # G2MRL audit product page (scroll-snap)
+    ├── TRL.vue                # TRL audit product page (scroll-snap)
     ├── CommunityView.vue       # Community page with logo animation
-    ├── ProjectsView.vue        # Products: portalNetwork, B3VY, LaunchCue
-    └── ContactView.vue         # Contact form and office hours
+    ├── TeamView.vue            # Team/About page with rocket-portal animation
+    ├── ContactView.vue         # Contact form and office hours
+    ├── HeimdallView.vue        # Hidden easter egg page (not in nav)
+    └── AboutView.vue           # Boilerplate placeholder (not in router)
 
 public/
 ├── clients/                   # Partner/client logo images
@@ -89,15 +94,20 @@ public/
 
 ## Site Pages
 
-| Page | Path | Description |
-|------|------|-------------|
-| Home | `/` | Landing with animated hex grid, services overview, team, partners |
-| Services | `/consultancy` | Detailed service offerings, process, team bios |
-| Ecosystem | `/ecosystem` | Directory of partners, clients, supported creators, collaborators |
-| DevXRL | `/devxrl` | DevXRL Audit product page with interactive readiness scale |
-| Community | `/community` | Community values, events, Discord CTA |
-| About | `/about` | The Collective team section, rocket-portal animation |
-| Contact | `/contact` | Contact options, form, virtual office hours |
+| Page | Path | Nav location | Description |
+|------|------|--------------|-------------|
+| Home | `/` | Logo | Landing with animated hex grid, services overview, team, partners |
+| Consultancy | `/consultancy` | About dropdown | Detailed service offerings, process, team bios |
+| Ecosystem | `/ecosystem` | About dropdown | Directory of partners, clients, supported creators, collaborators |
+| DevXRL | `/devxrl` | Audits dropdown (new tab) | DevXRL Audit product page with interactive readiness scale |
+| SMRL | `/smrl` | Audits dropdown (new tab) | Social Media Readiness Levels audit product page |
+| G2MRL | `/g2mrl` | Audits dropdown (new tab) | Go-to-Market Readiness Levels audit product page |
+| TRL | `/trl` | Audits dropdown (new tab) | Technology Readiness Levels audit product page |
+| Community | `/community` | Community | Community values, events, Discord CTA |
+| Team | `/team` | About dropdown | The Collective team section, rocket-portal animation |
+| Contact | `/contact` | Contact Us CTA | Contact options, form, virtual office hours |
+
+`/about` redirects to `/team` to preserve backward compatibility with older links. A hidden `/heimdall` easter egg route exists but is not linked from the nav.
 
 ## Design System
 
@@ -112,14 +122,14 @@ Full design system details are documented in `CLAUDE.md`.
 
 ## Adding Client Logos
 
+Client logos live in the auto-scrolling carousel. They are defined as a TypeScript array in the `<script setup>` block of `src/components/ui/LogoCarousel.vue`; each entry has `href`, `src`, `alt`, and `darkBg`.
+
 1. Add image file to `/public/clients/` (lowercase filename, PNG/SVG/JPG)
-2. Edit `src/components/ui/ClientLogos.vue`
-3. Add entry inside `.partners-grid`:
-   ```html
-   <a href="https://company.com" target="_blank" rel="noopener" class="partner-logo">
-     <img src="/clients/company-logo.png" alt="Company Name" />
-   </a>
+2. Add an entry to the `logos` array in `src/components/ui/LogoCarousel.vue`:
+   ```ts
+   { href: 'https://company.com', src: '/clients/company-logo.png', alt: 'Company Name', darkBg: false }
    ```
+3. Set `darkBg: true` if the logo needs a dark background to be legible
 4. Test locally, commit both files
 
 ## Contributing
@@ -148,3 +158,5 @@ This project uses bible files for session-agnostic development:
 ---
 
 *devEco Consulting LLC — DevRel from the workshop floor.*
+
+*Last updated: 2026-06-25*
