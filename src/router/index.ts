@@ -63,6 +63,11 @@ const router = createRouter({
       name: 'heimdall',
       component: () => import('../views/HeimdallView.vue'),
     },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('../views/PrivacyView.vue'),
+    },
   ],
 })
 

@@ -7,6 +7,9 @@
 ## [Unreleased]
 
 ### Added
+- Added a global cookie consent notice (`src/components/ui/CookieConsent.vue`), mounted in `App.vue`, that appears on first visit and persists dismissal in localStorage under `deveco-cookie-consent`.
+- Added a `/privacy` route and `PrivacyView.vue` with an honest privacy and cookie statement reflecting the site's current no-tracking state.
+- Added a Privacy link to the footer bottom bar in `FooterNav.vue`.
 - Added six ecosystem listings in `src/views/EcosystemView.vue`: Open Sauce and Jumperless (We Support), BrainChip and NextPCB (We Serve), Avnet and Advantech (We Have Worked With).
 - New About dropdown in HeaderNav, non-clickable parent, containing Team (/team), Consultancy (/consultancy), and Ecosystem (/ecosystem).
 - New Audits dropdown in HeaderNav, non-clickable parent, containing DevXRL, SMRL, G2MRL, and TRL. All four audit links open in new tabs via `target="_blank"` anchors.
