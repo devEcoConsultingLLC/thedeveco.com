@@ -259,23 +259,38 @@ const listings: EcosystemListing[] = [
       'Courses on Edge AI, Zephyr, ESP32, and RTOS'
     ]
   },
-
-  // Clients
   {
-    id: 'atym',
-    name: 'Atym',
-    logo: '/clients/atym.png',
-    category: 'client',
-    shortDescription: 'Edge computing platform enabling secure, scalable deployment of AI workloads at the network edge.',
-    tags: ['Edge Computing', 'AI', 'Platform'],
-    longDescription: 'Atym provides an edge computing platform that enables organizations to securely deploy and manage AI workloads at the network edge. devEco provides developer relations consulting to Atym, including developer experience audits, content strategy, and community building to accelerate platform adoption among edge computing developers.',
-    website: 'https://www.atym.io',
+    id: 'open-sauce',
+    name: 'Open Sauce',
+    logo: '/clients/Open_Sauce_Logo_1.png',
+    category: 'support',
+    shortDescription: 'Annual technology and creator festival bringing makers, engineers, and online creators together for hands-on exhibits, talks, and demos.',
+    tags: ['Maker Event', 'Science', 'Community'],
+    longDescription: 'Open Sauce is a technology and creator festival that gathers online creators, engineers, and educators for a weekend of hands-on exhibits, demos, and talks. Founded in 2023, it brings the internet maker community into one physical space, connecting builders with the audiences and peers who follow their work.',
+    website: 'https://www.opensauce.com',
     highlights: [
-      'Developer experience audit and recommendations',
-      'Technical content strategy and execution',
-      'Community launch and growth program'
+      'Hands-on exhibits from makers and engineers',
+      'Talks and demos from online creators',
+      'In-person hub for the maker community'
     ]
   },
+  {
+    id: 'jumperless',
+    name: 'Jumperless',
+    logo: '/clients/jumperless-logo.png',
+    category: 'support',
+    shortDescription: 'Open hardware breadboard that replaces jumper wires with a software-controlled analog crossbar, routing any point to any point.',
+    tags: ['Open Hardware', 'Prototyping', 'Maker'],
+    longDescription: 'Jumperless is an open source breadboard that uses an analog crossbar switch matrix in place of physical jumper wires, so connections can be made and changed in software. It also routes power and analog signals on the fly and lights RGB LEDs under each row to show what is happening in the circuit, turning the breadboard into a programmable prototyping surface.',
+    website: 'https://jumperless.org',
+    highlights: [
+      'Software-defined connections via analog crossbar',
+      'Programmable power and signal routing',
+      'Open source hardware and firmware'
+    ]
+  },
+
+  // Clients
   {
     id: 'solidrun',
     name: 'SolidRun',
@@ -289,21 +304,6 @@ const listings: EcosystemListing[] = [
       'Developer outreach and advocacy programs',
       'Technical documentation overhaul',
       'Community engagement strategy'
-    ]
-  },
-  {
-    id: 'crunchlabs',
-    name: 'CrunchLabs',
-    logo: '/clients/crunchlabs.png',
-    category: 'client',
-    shortDescription: 'STEM education company founded by former NASA engineer Mark Rober, teaching kids to think like engineers through hands-on build kits.',
-    tags: ['STEM Education', 'Engineering Kits', 'Youth'],
-    longDescription: 'CrunchLabs is an educational STEM company founded by Mark Rober, a former NASA engineer who worked on the Curiosity Mars Rover and now reaches over 68 million YouTube subscribers. Through subscription build kits like Build Box, Hack Pack, and Creative Kit, CrunchLabs teaches kids ages 6–13 to think like engineers with hands-on projects paired with video explanations of the science behind each build.',
-    website: 'https://www.crunchlabs.com',
-    highlights: [
-      'Founded by former NASA engineer Mark Rober',
-      'Subscription STEM kits for ages 6–13',
-      '98% of parents report positive impact on child development'
     ]
   },
   {
@@ -349,6 +349,36 @@ const listings: EcosystemListing[] = [
       'World\'s largest edge AI developer community',
       'Working groups spanning generative AI, neuromorphic, and benchmarking',
       'Edge AI Scholarship Fund for academia and students'
+    ]
+  },
+  {
+    id: 'brainchip',
+    name: 'BrainChip',
+    logo: '/clients/brainchip-logo.png',
+    category: 'client',
+    shortDescription: 'Neuromorphic computing company whose Akida processor brings event-based AI inference to low-power edge devices.',
+    tags: ['Neuromorphic', 'Edge AI', 'Silicon'],
+    longDescription: 'BrainChip develops neuromorphic AI technology, including its Akida processor, which performs event-based inference at very low power for edge and embedded applications. devEco provides developer relations consulting to BrainChip, supporting developer experience, technical content, and ecosystem growth around its neuromorphic platform.',
+    website: 'https://brainchip.com',
+    highlights: [
+      'Developer relations consulting engagement',
+      'Technical content and developer experience',
+      'Ecosystem growth for neuromorphic edge AI'
+    ]
+  },
+  {
+    id: 'nextpcb',
+    name: 'NextPCB',
+    logo: '/clients/nextpcb-logo.png',
+    category: 'client',
+    shortDescription: 'PCB manufacturer and assembly service providing prototyping and production runs for hardware developers.',
+    tags: ['PCB', 'Manufacturing', 'Hardware'],
+    longDescription: 'NextPCB is a printed circuit board manufacturer offering fabrication, assembly, and component sourcing from prototypes through volume production. Their services help hardware developers move designs from schematic to physical board quickly and affordably.',
+    website: 'https://www.nextpcb.com',
+    highlights: [
+      'Prototype and production PCB fabrication',
+      'PCB assembly and component sourcing',
+      'Fast turnaround for hardware developers'
     ]
   },
 
@@ -411,6 +441,66 @@ const listings: EcosystemListing[] = [
       'Fully open source hardware and software designs',
       'BeagleBone AI-64 for embedded AI development',
       'BeagleV RISC-V single-board computer platform'
+    ]
+  },
+  {
+    id: 'avnet',
+    name: 'Avnet',
+    logo: '/clients/avnet-logo.png',
+    category: 'collaborator',
+    shortDescription: 'Global technology distributor connecting developers with electronic components, embedded hardware, and design support.',
+    tags: ['Distribution', 'Hardware', 'Embedded'],
+    longDescription: 'Avnet is a global technology distributor that supplies electronic components, embedded boards, and design and supply-chain support to engineers and manufacturers worldwide. It also operates developer-facing communities and content platforms that connect makers and professionals with the tools and parts they need.',
+    website: 'https://www.avnet.com',
+    highlights: [
+      'Global electronic component distribution',
+      'Embedded and design support for developers',
+      'Operator of maker and developer communities'
+    ]
+  },
+  {
+    id: 'advantech',
+    name: 'Advantech',
+    logo: '/clients/advantech_logo.png',
+    category: 'collaborator',
+    shortDescription: 'Industrial computing company building embedded boards, edge AI systems, and IoT hardware for industrial and commercial use.',
+    tags: ['Industrial IoT', 'Edge AI', 'Embedded'],
+    longDescription: 'Advantech is a global provider of industrial and embedded computing, including edge AI systems, single-board computers, and IoT gateways used across manufacturing, healthcare, and infrastructure. Its hardware platforms support developers building rugged, deployable edge and industrial applications.',
+    website: 'https://www.advantech.com',
+    highlights: [
+      'Industrial and embedded computing platforms',
+      'Edge AI systems and IoT gateways',
+      'Rugged hardware for deployable applications'
+    ]
+  },
+  {
+    id: 'atym',
+    name: 'Atym',
+    logo: '/clients/atym.png',
+    category: 'collaborator',
+    shortDescription: 'Edge computing platform enabling secure, scalable deployment of AI workloads at the network edge.',
+    tags: ['Edge Computing', 'AI', 'Platform'],
+    longDescription: 'Atym provides an edge computing platform that enables organizations to securely deploy and manage AI workloads at the network edge. devEco provides developer relations consulting to Atym, including developer experience audits, content strategy, and community building to accelerate platform adoption among edge computing developers.',
+    website: 'https://www.atym.io',
+    highlights: [
+      'Developer experience audit and recommendations',
+      'Technical content strategy and execution',
+      'Community launch and growth program'
+    ]
+  },
+  {
+    id: 'crunchlabs',
+    name: 'CrunchLabs',
+    logo: '/clients/crunchlabs.png',
+    category: 'collaborator',
+    shortDescription: 'STEM education company founded by former NASA engineer Mark Rober, teaching kids to think like engineers through hands-on build kits.',
+    tags: ['STEM Education', 'Engineering Kits', 'Youth'],
+    longDescription: 'CrunchLabs is an educational STEM company founded by Mark Rober, a former NASA engineer who worked on the Curiosity Mars Rover and now reaches over 68 million YouTube subscribers. Through subscription build kits like Build Box, Hack Pack, and Creative Kit, CrunchLabs teaches kids ages 6–13 to think like engineers with hands-on projects paired with video explanations of the science behind each build.',
+    website: 'https://www.crunchlabs.com',
+    highlights: [
+      'Founded by former NASA engineer Mark Rober',
+      'Subscription STEM kits for ages 6–13',
+      '98% of parents report positive impact on child development'
     ]
   }
 ]

@@ -7,6 +7,7 @@
 ## [Unreleased]
 
 ### Added
+- Added six ecosystem listings in `src/views/EcosystemView.vue`: Open Sauce and Jumperless (We Support), BrainChip and NextPCB (We Serve), Avnet and Advantech (We Have Worked With).
 - New About dropdown in HeaderNav, non-clickable parent, containing Team (/team), Consultancy (/consultancy), and Ecosystem (/ecosystem).
 - New Audits dropdown in HeaderNav, non-clickable parent, containing DevXRL, SMRL, G2MRL, and TRL. All four audit links open in new tabs via `target="_blank"` anchors.
 - `/about` route now redirects to `/team` to preserve backward compatibility for external or indexed links.
@@ -35,6 +36,7 @@
 - TRL section now includes a row of three summary badges (TRL, DevXRL, G2MRL).
 
 ### Changed
+- Recategorized the Atym and CrunchLabs ecosystem listings from `client` (We Serve) to `collaborator` (We Have Worked With) in `src/views/EcosystemView.vue`.
 - Synced README.md and ROADMAP.md with the current 12-route structure, the four audit pages, and LogoCarousel replacing ClientLogos.
 - Renamed the "Source Network" ecosystem client listing to "Source" in `src/views/EcosystemView.vue`.
 - Repository transferred from `github.com/thedeveco/thedeveco.com` to `github.com/devEcoConsultingLLC/thedeveco.com`. GitHub permanent redirect handles legacy URLs.
