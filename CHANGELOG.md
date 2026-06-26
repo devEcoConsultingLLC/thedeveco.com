@@ -72,6 +72,7 @@
 - *(none yet)*
 
 ### Removed
+- Removed Tory Moghadam from the site: deleted his team-member card from TeamView (The Collective) and ConsultancyView (team section), removed the `tory` key from ConsultancyView's `expanded` reactive state, and deleted the orphaned `public/team/tory.jpg` asset.
 - Deleted DEPLOYMENT.md (outdated DigitalOcean deployment guide) and removed its references from CLAUDE.md.
 - Removed the Services dropdown from HeaderNav entirely. Its contents were redistributed: Consultancy moved to the About dropdown, and the four audits moved to the new Audits dropdown.
 - Removed Ecosystem from the Explore dropdown (moved to the About dropdown).
@@ -143,4 +144,4 @@
 
 *Changelog format: Each session that modifies the codebase adds entries under `[Unreleased]`. When a batch of changes is deployed and considered a release, the Unreleased section is renamed with a date header and a new Unreleased section is created.*
 
-*Last updated: 2026-06-25*
+*Last updated: 2026-06-26*

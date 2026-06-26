@@ -175,16 +175,6 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           <p class="bio">Creative technologist. Hardware hacker. HeatSync Labs alum. Founder of LumenCanvas.</p>
           <a href="https://hack.build" target="_blank" class="member-link">Portfolio</a>
         </div>
-
-        <div class="team-member">
-          <span class="badge badge-navy">Partner</span>
-          <div class="team-photo">
-            <img src="/team/tory.jpg" alt="Tory Moghadam" />
-          </div>
-          <h3>Tory Moghadam</h3>
-          <p class="role">Partner</p>
-          <p class="bio">Embedded systems and AI engineer. Lead AI Engineer at Be Well Health. Founder of OpenMuscle.</p>
-        </div>
       </div>
     </div>
   </section>

@@ -411,7 +411,7 @@ npm run lint         # ESLint with auto-fix
 
 ### TeamView (/team)
 - **Hero**: Navy with rocket-through-portal SVG animation (6s loop with gear emergence), "About Us" label, "The people behind devEco." heading
-- **Team**: The Collective — 3-member grid with hexagonal clipped photos, badges, roles, bios, and links (moved from HomeView)
+- **Team**: The Collective — 2-member grid with hexagonal clipped photos, badges, roles, bios, and links (moved from HomeView)
 - **Community Engine Explorer**: Interactive widget with 6-cell node grid (5 clickable nodes + 1 hub), expandable detail panel, pulse dot animations, and CTA buttons
 - *Note*: `/about` redirects to `/team` to preserve backward compatibility with older external links.
 
@@ -477,5 +477,5 @@ When ending a session that made changes:
 
 ---
 
-*Last updated: 2026-06-25*
+*Last updated: 2026-06-26*
 *Bible file version: 1.0*

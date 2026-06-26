@@ -207,29 +207,6 @@
             <span class="tag">Open Source</span>
           </div>
         </div>
-
-        <div class="team-member" :class="{ expanded: expanded.tory }">
-          <div class="member-photo">
-            <img src="/team/tory.jpg" alt="Tory Moghadam" />
-          </div>
-          <h3>Tory (TURFPTAx) Moghadam</h3>
-          <p class="member-title">Partner</p>
-          <p class="member-bio-preview">Embedded systems and AI engineer with deep experience in compliance, cybersecurity, and large-scale systems.</p>
-          <p class="member-bio">
-            Tory is an embedded systems and AI engineer with deep experience in compliance, cybersecurity, and large-scale technical systems.
-            As Lead AI Engineer at Be Well Health, he designs secure, scalable AI solutions for healthcare.
-            He's also the founder of OpenMuscle, an open-source initiative advancing prosthetic sensor technology.
-            A partner at DevEco Consulting, Tory combines rigorous technical insight with a passion for accessibility, open hardware, and applied AI innovation.
-          </p>
-          <button class="read-more-btn" @click="expanded.tory = !expanded.tory">
-            {{ expanded.tory ? 'Show less' : 'Read more' }}
-          </button>
-          <div class="member-tags">
-            <span class="tag">AI Engineering</span>
-            <span class="tag">Embedded Systems</span>
-            <span class="tag">Cybersecurity</span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -252,8 +229,7 @@ import { reactive } from 'vue'
 
 const expanded = reactive({
   robert: false,
-  moheeb: false,
-  tory: false
+  moheeb: false
 })
 </script>
 
