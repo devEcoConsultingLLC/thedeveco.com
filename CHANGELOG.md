@@ -7,6 +7,7 @@
 ## [Unreleased]
 
 ### Added
+- Added Theodore Grey as a third partner on both team sections: The Collective in `src/views/TeamView.vue` (pink Partner badge, hex photo, LinkedIn link) and Meet Our Team in `src/views/ConsultancyView.vue` (full bio card with read-more toggle and Arm64 Systems / CI/CD Deployment / AI Model Development tags).
 - Added a global cookie consent notice (`src/components/ui/CookieConsent.vue`), mounted in `App.vue`, that appears on first visit and persists dismissal in localStorage under `deveco-cookie-consent`.
 - Added a `/privacy` route and `PrivacyView.vue` with an honest privacy and cookie statement reflecting the site's current no-tracking state.
 - Added a Privacy link to the footer bottom bar in `FooterNav.vue`.
