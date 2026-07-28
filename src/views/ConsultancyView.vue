@@ -207,6 +207,26 @@
             <span class="tag">Open Source</span>
           </div>
         </div>
+
+        <div class="team-member" :class="{ expanded: expanded.theodore }">
+          <div class="member-photo">
+            <img src="/team/theodore.jpg" alt="Theodore Grey" />
+          </div>
+          <h3>Theodore Grey</h3>
+          <p class="member-title">Partner</p>
+          <p class="member-bio-preview">Software engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.</p>
+          <p class="member-bio">
+            Software Engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.
+          </p>
+          <button class="read-more-btn" @click="expanded.theodore = !expanded.theodore">
+            {{ expanded.theodore ? 'Show less' : 'Read more' }}
+          </button>
+          <div class="member-tags">
+            <span class="tag">Arm64 Systems</span>
+            <span class="tag">CI/CD Deployment</span>
+            <span class="tag">AI Model Development</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -229,7 +249,8 @@ import { reactive } from 'vue'
 
 const expanded = reactive({
   robert: false,
-  moheeb: false
+  moheeb: false,
+  theodore: false
 })
 </script>
 

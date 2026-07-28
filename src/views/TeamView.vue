@@ -175,6 +175,17 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           <p class="bio">Creative technologist. Hardware hacker. HeatSync Labs alum. Founder of LumenCanvas.</p>
           <a href="https://hack.build" target="_blank" class="member-link">Portfolio</a>
         </div>
+
+        <div class="team-member">
+          <span class="badge badge-pink">Partner</span>
+          <div class="team-photo">
+            <img src="/team/theodore.jpg" alt="Theodore Grey" />
+          </div>
+          <h3>Theodore Grey</h3>
+          <p class="role">Partner</p>
+          <p class="bio">Software engineer and Arm64 specialist. Eight-plus years in benchmarking, CI/CD deployment, and AI model development.</p>
+          <a href="https://www.linkedin.com/in/theodore-grey-743517158/" target="_blank" class="member-link">LinkedIn</a>
+        </div>
       </div>
     </div>
   </section>
@@ -426,7 +437,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: var(--space-xl);
 }
 

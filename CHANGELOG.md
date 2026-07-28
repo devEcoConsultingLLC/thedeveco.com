@@ -7,6 +7,7 @@
 ## [Unreleased]
 
 ### Added
+- Added Theodore Grey as a third partner on both team sections: The Collective in `src/views/TeamView.vue` (pink Partner badge, hex photo, LinkedIn link) and Meet Our Team in `src/views/ConsultancyView.vue` (full bio card with read-more toggle and Arm64 Systems / CI/CD Deployment / AI Model Development tags).
 - Added a global cookie consent notice (`src/components/ui/CookieConsent.vue`), mounted in `App.vue`, that appears on first visit and persists dismissal in localStorage under `deveco-cookie-consent`.
 - Added a `/privacy` route and `PrivacyView.vue` with an honest privacy and cookie statement reflecting the site's current no-tracking state.
 - Added a Privacy link to the footer bottom bar in `FooterNav.vue`.
@@ -39,6 +40,8 @@
 - TRL section now includes a row of three summary badges (TRL, DevXRL, G2MRL).
 
 ### Changed
+- Expanded Theodore Grey's bio in `TeamView.vue` to match the length of Robert's and Moheeb's entries.
+- Lowered the `.team-grid` `minmax()` floor in `TeamView.vue` from `280px` to `180px` so three team cards stay in a single row across the tablet range (769px–1000px) instead of orphaning the third card into its own row. Mobile stacking below 768px is unchanged.
 - Recategorized the Atym and CrunchLabs ecosystem listings from `client` (We Serve) to `collaborator` (We Have Worked With) in `src/views/EcosystemView.vue`.
 - Synced README.md and ROADMAP.md with the current 12-route structure, the four audit pages, and LogoCarousel replacing ClientLogos.
 - Renamed the "Source Network" ecosystem client listing to "Source" in `src/views/EcosystemView.vue`.
