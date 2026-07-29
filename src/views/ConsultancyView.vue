@@ -216,7 +216,9 @@
           <p class="member-title">Partner</p>
           <p class="member-bio-preview">Software engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.</p>
           <p class="member-bio">
-            Software Engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.
+            Theodore is a software engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.
+            He's built and hardened pipelines using tools like TensorFlow, Jenkins, and LAVA, bringing rigor and reliability to how technical work gets shipped and validated.
+            As a partner at devEco Consulting, Theodore brings deep infrastructure expertise and a collaborative, team-first approach to every engagement.
           </p>
           <button class="read-more-btn" @click="expanded.theodore = !expanded.theodore">
             {{ expanded.theodore ? 'Show less' : 'Read more' }}
