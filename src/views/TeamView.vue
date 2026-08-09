@@ -11,11 +11,11 @@ interface EngineNode {
 const activeNode = ref<string | null>(null)
 
 const engineNodes: EngineNode[] = [
-  { id: 'community', name: 'devEco Community', role: 'network', description: 'The living network. Discord servers, local meetups, Developers Anonymous, and the open source communities where builders connect and collaborate.' },
-  { id: 'consulting', name: 'devEco Consulting LLC', role: 'strategy', description: 'Strategy and execution. Developer ecosystem consulting, community operations, and technical content — from Edge AI to embedded systems.' },
-  { id: 'content', name: 'devEco Content Hub', role: 'publishing', description: 'The publishing engine. Blog posts, LinkedIn campaigns, certification courses, and the 52-principle Community Operating System knowledge base.' },
-  { id: 'crm', name: 'devEco CRM', role: 'relationships', description: 'The relationship layer. Contact management, engagement tracking, and pipeline operations across the entire ecosystem.' },
-  { id: 'estate', name: 'devEco Digital Estate', role: 'namespaces', description: 'Every namespace. Every platform. The full devEco presence — domains, repositories, social channels, and distribution endpoints across the web.' },
+  { id: 'community', name: 'devEco™ Community', role: 'network', description: 'The living network. Discord servers, local meetups, Developers Anonymous, and the open source communities where builders connect and collaborate.' },
+  { id: 'consulting', name: 'devEco™ Consulting LLC', role: 'strategy', description: 'Strategy and execution. Developer ecosystem consulting, community operations, and technical content — from Edge AI to embedded systems.' },
+  { id: 'content', name: 'devEco™ Content Hub', role: 'publishing', description: 'The publishing engine. Blog posts, LinkedIn campaigns, certification courses, and the 52-principle Community Operating System knowledge base.' },
+  { id: 'crm', name: 'devEco™ CRM', role: 'relationships', description: 'The relationship layer. Contact management, engagement tracking, and pipeline operations across the entire ecosystem.' },
+  { id: 'estate', name: 'devEco™ Digital Estate', role: 'namespaces', description: 'Every namespace. Every platform. The full devEco™ presence — domains, repositories, social channels, and distribution endpoints across the web.' },
 ]
 
 const toggleNode = (nodeId: string) => {
@@ -137,7 +137,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
         </div>
         <div class="hero-content">
           <p class="label">About Us</p>
-          <h1>The people behind devEco.</h1>
+          <h1>The people behind devEco™.</h1>
           <p class="hero-subtitle">
             Practitioners who've been building developer communities since before it was a job title.
           </p>
@@ -161,7 +161,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           </div>
           <h3>Robert Wolff</h3>
           <p class="role">Founder & Partner</p>
-          <p class="bio">Entrepreneur, developer advocate, community strategist, and systems orchestrator. Founder of the devEco Community Engine.</p>
+          <p class="bio">Entrepreneur, developer advocate, community strategist, and systems orchestrator. Founder of the devEco™ Community Engine.</p>
           <a href="https://linktr.ee/robertwolff" target="_blank" class="member-link">Linktree</a>
         </div>
 
@@ -194,7 +194,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
   <section class="engine-section">
     <div class="container">
       <div class="engine-header">
-        <h2>The devEco Community Engine</h2>
+        <h2>The devEco™ Community Engine</h2>
         <p>One ecosystem. Many surfaces. Five connected layers driving developer community at scale.</p>
       </div>
 
@@ -205,13 +205,13 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           @click="toggleNode('community')"
         >
           <span class="engine-node__pulse" style="animation-delay: 0s"></span>
-          <span class="engine-node__name">devEco Community</span>
+          <span class="engine-node__name">devEco™ Community</span>
           <span class="engine-node__role">network</span>
         </button>
 
         <div class="engine-hub">
           <span class="engine-hub__name">ENGINE</span>
-          <span class="engine-hub__sub">devEco</span>
+          <span class="engine-hub__sub">devEco™</span>
         </div>
 
         <button
@@ -220,7 +220,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           @click="toggleNode('consulting')"
         >
           <span class="engine-node__pulse" style="animation-delay: 0.4s"></span>
-          <span class="engine-node__name">devEco Consulting LLC</span>
+          <span class="engine-node__name">devEco™ Consulting LLC</span>
           <span class="engine-node__role">strategy</span>
         </button>
 
@@ -230,7 +230,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           @click="toggleNode('content')"
         >
           <span class="engine-node__pulse" style="animation-delay: 0.8s"></span>
-          <span class="engine-node__name">devEco Content Hub</span>
+          <span class="engine-node__name">devEco™ Content Hub</span>
           <span class="engine-node__role">publishing</span>
         </button>
 
@@ -240,7 +240,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           @click="toggleNode('crm')"
         >
           <span class="engine-node__pulse" style="animation-delay: 1.2s"></span>
-          <span class="engine-node__name">devEco CRM</span>
+          <span class="engine-node__name">devEco™ CRM</span>
           <span class="engine-node__role">relationships</span>
         </button>
 
@@ -250,7 +250,7 @@ const activeNodeData = () => engineNodes.find(n => n.id === activeNode.value)
           @click="toggleNode('estate')"
         >
           <span class="engine-node__pulse" style="animation-delay: 1.6s"></span>
-          <span class="engine-node__name">devEco Digital Estate</span>
+          <span class="engine-node__name">devEco™ Digital Estate</span>
           <span class="engine-node__role">namespaces</span>
         </button>
       </div>

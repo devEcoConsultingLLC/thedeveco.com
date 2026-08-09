@@ -119,7 +119,7 @@ const deliverables: Deliverable[] = [
   {
     num: '07',
     title: 'Source of Truth Blueprint',
-    body: 'Structured plan for your knowledge base foundation. What exists, what needs capturing, how to organize it, and how it connects to downstream AI tools. The first seed of an ongoing KB that devEco builds and maintains.',
+    body: 'Structured plan for your knowledge base foundation. What exists, what needs capturing, how to organize it, and how it connects to downstream AI tools. The first seed of an ongoing KB that devEco™ builds and maintains.',
   },
 ]
 
@@ -441,7 +441,7 @@ onUnmounted(() => {
             <div>
               <h4>What We Do About It</h4>
               <p>
-                devEco identifies which platforms your brand can actually own given current
+                devEco™ identifies which platforms your brand can actually own given current
                 resources, then rebuilds the pipeline so every piece of content compounds. Fewer
                 platforms. Sharper voice. Higher leverage per dollar spent and per hour worked.
               </p>
@@ -523,7 +523,7 @@ onUnmounted(() => {
               </p>
             </div>
             <div>
-              <h4>devEco Grows What the Audit Plants</h4>
+              <h4>devEco™ Grows What the Audit Plants</h4>
               <p>
                 From there, we build and maintain the full KB through a comprehensive process.
                 White-glove from first capture to live deployment. The KB becomes the upstream
@@ -546,7 +546,7 @@ onUnmounted(() => {
             <div class="smrl-kb-core">
               <div class="smrl-kb-core-title">KNOWLEDGE BASE</div>
               <div class="smrl-kb-core-sub">Source of Truth</div>
-              <div class="smrl-kb-core-meta">Built and Maintained by devEco</div>
+              <div class="smrl-kb-core-meta">Built and Maintained by devEco™</div>
             </div>
             <div class="smrl-kb-arrow-v"></div>
             <div class="smrl-kb-tier-label">Downstream Surfaces</div>

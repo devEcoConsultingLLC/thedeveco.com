@@ -24,7 +24,7 @@
           </div>
           <!-- Text -->
           <div class="text-wrap">
-            <div class="brand-text" ref="brandText">devEco</div>
+            <div class="brand-text" ref="brandText">devEco™</div>
             <div class="tagline" ref="tagline">Community</div>
           </div>
         </div>

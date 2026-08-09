@@ -20,15 +20,15 @@
       <div class="statement">
         <h2>Overview</h2>
         <p>
-          devEco Consulting LLC operates thedeveco.com. This statement explains what information
+          devEco™ Consulting LLC operates thedeveco.com. This statement explains what information
           the site does and does not collect, in plain language. It is current as of 2026-06-26.
         </p>
 
         <h2>Information We Collect</h2>
         <p>
           The site does not collect or store personal information. There is no account system, no
-          analytics, and no tracking. If you contact devEco through the email or social channels
-          listed on the <router-link to="/contact">Contact</router-link> page, devEco receives only
+          analytics, and no tracking. If you contact devEco™ through the email or social channels
+          listed on the <router-link to="/contact">Contact</router-link> page, devEco™ receives only
           the information you choose to share in that message.
         </p>
 
@@ -47,7 +47,7 @@
           the font files, Google may receive standard request data such as your IP address, handled
           under Google's own privacy policy. The site is hosted on GitHub Pages, and as part of
           serving the site, GitHub may process standard server information such as IP addresses,
-          handled under GitHub's privacy practices. devEco does not control or receive this data.
+          handled under GitHub's privacy practices. devEco™ does not control or receive this data.
         </p>
 
         <h2>Your Choices</h2>
@@ -65,7 +65,7 @@
 
         <h2>Changes</h2>
         <p>
-          devEco may update this statement as the site changes. This version is current as of
+          devEco™ may update this statement as the site changes. This version is current as of
           2026-06-26.
         </p>
       </div>

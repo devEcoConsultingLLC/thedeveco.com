@@ -128,7 +128,7 @@
           </div>
           <div class="hours-item">
             <span class="hours-label">Where</span>
-            <span class="hours-value">DevEco Discord</span>
+            <span class="hours-value">devEco™ Discord</span>
           </div>
         </div>
         <a href="https://discord.gg/deveco" target="_blank" class="btn btn-primary">Join Office Hours</a>

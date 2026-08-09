@@ -114,7 +114,7 @@ const deliverables: Deliverable[] = [
   {
     num: '06',
     title: 'Technical Knowledge Blueprint',
-    body: 'Structured plan for capturing engineering decisions, validation data, and IP continuity. First seed of an ongoing KB that devEco builds and maintains.',
+    body: 'Structured plan for capturing engineering decisions, validation data, and IP continuity. First seed of an ongoing KB that devEco™ builds and maintains.',
   },
   {
     num: '07',
@@ -137,7 +137,7 @@ const methodologyCards: MethodCard[] = [
   {
     letter: 'C',
     title: 'TRL Readiness Scoring',
-    body: 'Applied against the canonical NASA scale with devEco\'s commercial translation layer. Scored 1-9 with specific criteria, evidence review, and the commercial milestone each level unlocks.',
+    body: 'Applied against the canonical NASA scale with the devEco™ commercial translation layer. Scored 1-9 with specific criteria, evidence review, and the commercial milestone each level unlocks.',
   },
   {
     letter: 'D',
@@ -447,7 +447,7 @@ onUnmounted(() => {
             <div>
               <h4>What We Do About It</h4>
               <p>
-                devEco audits every transition in the maturation flow: lab validity, field
+                devEco™ audits every transition in the maturation flow: lab validity, field
                 readiness, certification path, commercial fit. We identify which gaps are technical
                 debt, which are paperwork, and which require deeper rework before the next funding
                 milestone, grant deadline, or customer commitment.
@@ -469,7 +469,7 @@ onUnmounted(() => {
         <span class="trl-tag trl-tag-teal" style="color:var(--trl-teal);border-color:var(--trl-teal)">THE FRAMEWORK</span>
         <h2 style="color:#fff">TRL Readiness Levels</h2>
         <p>
-          Borrowed from NASA, maintained by devEco with a commercial translation layer. Click any
+          Borrowed from NASA, maintained by devEco™ with a commercial translation layer. Click any
           level to see the evaluation criteria.
         </p>
         <div class="trl-scale-wrapper fade-in">
@@ -506,7 +506,7 @@ onUnmounted(() => {
           Most deep-tech programs overclaim by two levels. Investors know. Grant reviewers know.
           Acquirers know.
           <strong>TRL only protects you when the level you claim matches the evidence you can produce.</strong>
-          devEco audits the gap between claim and reality, then closes it with the engineering
+          devEco™ audits the gap between claim and reality, then closes it with the engineering
           work the business requires.
         </div>
       </div>
@@ -535,9 +535,9 @@ onUnmounted(() => {
               </p>
             </div>
             <div>
-              <h4>devEco Preserves the Institutional Asset</h4>
+              <h4>devEco™ Preserves the Institutional Asset</h4>
               <p>
-                From there, devEco builds and maintains a technical knowledge base that serves
+                From there, devEco™ builds and maintains a technical knowledge base that serves
                 three audiences at once: the engineers who inherit the work, the executives who
                 answer investor questions, and the reviewers who evaluate claims for grants,
                 credits, and acquisition. White-glove capture, expert maintenance, zero
@@ -558,7 +558,7 @@ onUnmounted(() => {
             <div class="trl-kb-core">
               <div class="trl-kb-core-title">TECHNICAL KNOWLEDGE</div>
               <div class="trl-kb-core-sub">Source of Truth</div>
-              <div class="trl-kb-core-meta">Built and Maintained by devEco</div>
+              <div class="trl-kb-core-meta">Built and Maintained by devEco™</div>
             </div>
             <div class="trl-kb-arrow-v"></div>
             <div class="trl-kb-tier-label">Downstream Surfaces</div>

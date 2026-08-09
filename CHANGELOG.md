@@ -40,6 +40,7 @@
 - TRL section now includes a row of three summary badges (TRL, DevXRL, G2MRL).
 
 ### Changed
+- Added the `™` symbol to the devEco brand name across all rendered site copy (62 occurrences across 14 files), and corrected six instances that were miscased as `DevEco`. Domain labels (`devEco.io`, `devEco.app`), the `devEcoConsultingLLC` GitHub org reference, all lowercase `deveco` URLs and asset paths, the `src/App.vue` CSS comment, the SVG logo lockups, and the `public/trail-sandiego/` static export were intentionally left unchanged.
 - Expanded Theodore Grey's bio in `TeamView.vue` to match the length of Robert's and Moheeb's entries.
 - Lowered the `.team-grid` `minmax()` floor in `TeamView.vue` from `280px` to `180px` so three team cards stay in a single row across the tablet range (769px–1000px) instead of orphaning the third card into its own row. Mobile stacking below 768px is unchanged.
 - Recategorized the Atym and CrunchLabs ecosystem listings from `client` (We Serve) to `collaborator` (We Have Worked With) in `src/views/EcosystemView.vue`.

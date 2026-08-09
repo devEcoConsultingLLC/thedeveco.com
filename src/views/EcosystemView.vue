@@ -7,7 +7,7 @@
           <p class="label">A High-Integrity Network</p>
           <h1>Explore Our Ecosystem</h1>
           <p class="hero-subtitle">
-            The people, partners, and communities that make devEco thrive.
+            The people, partners, and communities that make devEco™ thrive.
           </p>
         </div>
       </div>
@@ -82,7 +82,7 @@ const listings: EcosystemListing[] = [
     category: 'partner',
     shortDescription: 'Advancing edge AI adoption through open standards, community building, and developer education.',
     tags: ['Edge AI', 'Open Standards', 'Developer Education'],
-    longDescription: 'The Edge AI Foundation is dedicated to accelerating the adoption of AI at the edge through open standards, collaborative research, and developer education. As a founding partner, devEco works closely with the foundation to build developer programs, create educational content, and foster a global community of edge AI practitioners.',
+    longDescription: 'The Edge AI Foundation is dedicated to accelerating the adoption of AI at the edge through open standards, collaborative research, and developer education. As a founding partner, devEco™ works closely with the foundation to build developer programs, create educational content, and foster a global community of edge AI practitioners.',
     website: 'https://edgeai.foundation',
     highlights: [
       'Founding partner and community advisor',
@@ -97,7 +97,7 @@ const listings: EcosystemListing[] = [
     category: 'partner',
     shortDescription: 'Community of IoT professionals connecting at key industry events for honest conversations about IoT, embedded, and Edge AI.',
     tags: ['IoT', 'Community Events', 'Edge AI'],
-    longDescription: 'IoT Stars brings together a diverse community of IoT professionals — from pioneering startups and open source initiatives to corporate leaders and technology foundations. Through curated events at Embedded World, Electronica, and MWC, IoT Stars facilitates C-level conversations about the future of IoT, connectivity, and business models. devEco partners with IoT Stars on community programming and event coordination.',
+    longDescription: 'IoT Stars brings together a diverse community of IoT professionals — from pioneering startups and open source initiatives to corporate leaders and technology foundations. Through curated events at Embedded World, Electronica, and MWC, IoT Stars facilitates C-level conversations about the future of IoT, connectivity, and business models. devEco™ partners with IoT Stars on community programming and event coordination.',
     website: 'https://www.iotstars.com',
     socialLinks: [
       { platform: 'LinkedIn', url: 'https://www.linkedin.com/company/iotstars/' },
@@ -149,14 +149,14 @@ const listings: EcosystemListing[] = [
     category: 'support',
     shortDescription: 'FPGA engineer and content creator producing tutorials on embedded systems and hardware design.',
     tags: ['FPGA', 'Content Creator', 'Hardware'],
-    longDescription: 'Whitney Knitter is an FPGA engineer and prolific content creator known for her accessible tutorials on embedded systems, hardware design, and FPGA development. devEco supports Whitney through content amplification, sponsorship coordination, and community platform access to help her reach a broader audience of hardware developers.',
+    longDescription: 'Whitney Knitter is an FPGA engineer and prolific content creator known for her accessible tutorials on embedded systems, hardware design, and FPGA development. devEco™ supports Whitney through content amplification, sponsorship coordination, and community platform access to help her reach a broader audience of hardware developers.',
     website: 'https://www.hackster.io/whitney-knitter',
     socialLinks: [
       { platform: 'YouTube', url: 'https://youtube.com' },
       { platform: 'GitHub', url: 'https://github.com' }
     ],
     highlights: [
-      'Featured content creator in devEco community streams',
+      'Featured content creator in devEco™ community streams',
       'Hardware workshop series co-organizer',
       'Open source FPGA project contributor'
     ]
@@ -167,7 +167,7 @@ const listings: EcosystemListing[] = [
     category: 'support',
     shortDescription: 'YouTuber, trainer, and consultant building robotics projects with Raspberry Pi Pico, ROS2, and FreeRTOS.',
     tags: ['Robotics', 'Raspberry Pi', 'Content Creator'],
-    longDescription: 'Dr Jon EA is the maker persona of Dr. Jon Durant, who pivoted from decades in enterprise IT architecture to hands-on embedded systems and community-driven content creation. He produces tutorials and builds on Raspberry Pi Pico, FreeRTOS, and ROS2 — including his Star Wars-inspired RexP1 droid and the DIY Dev Droid platform. devEco supports Dr Jon EA through community platform access and collaborative streaming.',
+    longDescription: 'Dr Jon EA is the maker persona of Dr. Jon Durant, who pivoted from decades in enterprise IT architecture to hands-on embedded systems and community-driven content creation. He produces tutorials and builds on Raspberry Pi Pico, FreeRTOS, and ROS2 — including his Star Wars-inspired RexP1 droid and the DIY Dev Droid platform. devEco™ supports Dr Jon EA through community platform access and collaborative streaming.',
     website: 'https://drjonea.co.uk',
     socialLinks: [
       { platform: 'YouTube', url: 'https://www.youtube.com/@DrJonEA' },
@@ -176,7 +176,7 @@ const listings: EcosystemListing[] = [
     highlights: [
       'FreeRTOS on Raspberry Pi Pico course series',
       'RexP1 droid build with ROS2 and MicroROS',
-      'Active devEco Discord community member'
+      'Active devEco™ Discord community member'
     ]
   },
   {
@@ -220,7 +220,7 @@ const listings: EcosystemListing[] = [
     category: 'support',
     shortDescription: 'Maker content creator producing YouTube videos, free software, and music for the DIY community.',
     tags: ['Maker', 'Content Creator', 'Open Source'],
-    longDescription: 'MAKiT is a maker-focused content creator producing YouTube videos, free software, and music for the DIY and maker community. With an active Patreon community, MAKiT shares projects, tools, and resources that help makers bring their ideas to life. devEco supports MAKiT through community platform access and content collaboration.',
+    longDescription: 'MAKiT is a maker-focused content creator producing YouTube videos, free software, and music for the DIY and maker community. With an active Patreon community, MAKiT shares projects, tools, and resources that help makers bring their ideas to life. devEco™ supports MAKiT through community platform access and content collaboration.',
     website: 'https://www.youtube.com/@MAKiTHappen',
     highlights: [
       'Active maker community on Patreon',
@@ -298,7 +298,7 @@ const listings: EcosystemListing[] = [
     category: 'client',
     shortDescription: 'Hardware manufacturer specializing in high-performance embedded computing and networking solutions.',
     tags: ['Hardware', 'Embedded', 'Networking'],
-    longDescription: 'SolidRun designs and manufactures high-performance embedded computing and networking hardware used in enterprise, edge, and IoT applications. devEco works with SolidRun on developer outreach, technical documentation, and community engagement to grow their developer ecosystem and drive adoption of their hardware platforms.',
+    longDescription: 'SolidRun designs and manufactures high-performance embedded computing and networking hardware used in enterprise, edge, and IoT applications. devEco™ works with SolidRun on developer outreach, technical documentation, and community engagement to grow their developer ecosystem and drive adoption of their hardware platforms.',
     website: 'https://www.solid-run.com',
     highlights: [
       'Developer outreach and advocacy programs',
@@ -358,7 +358,7 @@ const listings: EcosystemListing[] = [
     category: 'client',
     shortDescription: 'Neuromorphic computing company whose Akida processor brings event-based AI inference to low-power edge devices.',
     tags: ['Neuromorphic', 'Edge AI', 'Silicon'],
-    longDescription: 'BrainChip develops neuromorphic AI technology, including its Akida processor, which performs event-based inference at very low power for edge and embedded applications. devEco provides developer relations consulting to BrainChip, supporting developer experience, technical content, and ecosystem growth around its neuromorphic platform.',
+    longDescription: 'BrainChip develops neuromorphic AI technology, including its Akida processor, which performs event-based inference at very low power for edge and embedded applications. devEco™ provides developer relations consulting to BrainChip, supporting developer experience, technical content, and ecosystem growth around its neuromorphic platform.',
     website: 'https://brainchip.com',
     highlights: [
       'Developer relations consulting engagement',
@@ -390,7 +390,7 @@ const listings: EcosystemListing[] = [
     category: 'collaborator',
     shortDescription: 'Global community platform for hardware and IoT developers to share projects and learn together.',
     tags: ['Community Platform', 'Hardware', 'IoT'],
-    longDescription: 'Hackster.io is the world\'s largest community for hardware and IoT developers, hosting millions of projects and tutorials. devEco collaborates with Hackster on content programs, hackathon coordination, and community cross-pollination to connect developers across platforms and amplify project visibility.',
+    longDescription: 'Hackster.io is the world\'s largest community for hardware and IoT developers, hosting millions of projects and tutorials. devEco™ collaborates with Hackster on content programs, hackathon coordination, and community cross-pollination to connect developers across platforms and amplify project visibility.',
     website: 'https://www.hackster.io',
     highlights: [
       'Joint hackathon and contest coordination',
@@ -405,7 +405,7 @@ const listings: EcosystemListing[] = [
     category: 'collaborator',
     shortDescription: 'Linux container-based device management platform for IoT and embedded systems.',
     tags: ['Linux', 'Containers', 'Device Management'],
-    longDescription: 'Pantacor provides a Linux container-based device management platform that simplifies the deployment, updating, and management of IoT and embedded devices. devEco works with Pantacor on developer tooling advocacy, technical content creation, and community outreach to grow adoption among embedded Linux developers.',
+    longDescription: 'Pantacor provides a Linux container-based device management platform that simplifies the deployment, updating, and management of IoT and embedded devices. devEco™ works with Pantacor on developer tooling advocacy, technical content creation, and community outreach to grow adoption among embedded Linux developers.',
     website: 'https://www.pantacor.com',
     highlights: [
       'Developer tooling advocacy and demos',
@@ -420,7 +420,7 @@ const listings: EcosystemListing[] = [
     category: 'collaborator',
     shortDescription: 'Security platform providing over-the-air update infrastructure for IoT and embedded devices.',
     tags: ['Security', 'OTA Updates', 'IoT'],
-    longDescription: 'Thistle Technologies builds security infrastructure for IoT and embedded devices, specializing in secure over-the-air update delivery. devEco collaborates with Thistle on developer education, security-focused content, and community engagement to promote best practices in embedded device security.',
+    longDescription: 'Thistle Technologies builds security infrastructure for IoT and embedded devices, specializing in secure over-the-air update delivery. devEco™ collaborates with Thistle on developer education, security-focused content, and community engagement to promote best practices in embedded device security.',
     website: 'https://www.thistle.tech',
     highlights: [
       'Security-focused developer education content',
@@ -480,7 +480,7 @@ const listings: EcosystemListing[] = [
     category: 'collaborator',
     shortDescription: 'Edge computing platform enabling secure, scalable deployment of AI workloads at the network edge.',
     tags: ['Edge Computing', 'AI', 'Platform'],
-    longDescription: 'Atym provides an edge computing platform that enables organizations to securely deploy and manage AI workloads at the network edge. devEco provides developer relations consulting to Atym, including developer experience audits, content strategy, and community building to accelerate platform adoption among edge computing developers.',
+    longDescription: 'Atym provides an edge computing platform that enables organizations to securely deploy and manage AI workloads at the network edge. devEco™ provides developer relations consulting to Atym, including developer experience audits, content strategy, and community building to accelerate platform adoption among edge computing developers.',
     website: 'https://www.atym.io',
     highlights: [
       'Developer experience audit and recommendations',
