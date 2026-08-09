@@ -573,7 +573,7 @@ onUnmounted(() => {
             <div>
               <h4>What We Do About It</h4>
               <p>
-                devEco bridges these gaps with the knowledge, skills, network, and process required
+                devEco™ bridges these gaps with the knowledge, skills, network, and process required
                 to move initiatives beyond the difficult conversion layer. This creates more
                 opportunities, strengthens developer engagement, and brings initiatives closer to
                 measurable business outcomes.

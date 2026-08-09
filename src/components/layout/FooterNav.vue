@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="/images/deveco-community-logo.png" alt="DevEco" class="footer-logo" />
+          <img src="/images/deveco-community-logo.png" alt="devEco™" class="footer-logo" />
           <p>DevRel from the workshop floor.</p>
         </div>
 
@@ -48,7 +48,7 @@
       </div>
 
       <div class="footer-bottom">
-        <span>{{ currentYear }} | devEco Consulting LLC | <router-link to="/privacy">Privacy</router-link></span>
+        <span>{{ currentYear }} | devEco™ Consulting LLC | <router-link to="/privacy">Privacy</router-link></span>
         <span>EDGE AI FOUNDATION | <a href="https://www.edgeaifoundation.org/" target="_blank">Scholarship Partner</a></span>
       </div>
     </div>

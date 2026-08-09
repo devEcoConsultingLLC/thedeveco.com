@@ -171,7 +171,7 @@
           <p class="member-bio-preview">Developer advocate and community strategist with a decade of experience building and scaling developer ecosystems.</p>
           <p class="member-bio">
             Robert is a developer advocate and community strategist with a decade of experience building and scaling developer ecosystems.
-            As the founder of DevEco Consulting, he's helped companies connect with developers through authentic storytelling, content, and hands-on engagement.
+            As the founder of devEco™ Consulting, he's helped companies connect with developers through authentic storytelling, content, and hands-on engagement.
             Previously at Arm, he led developer programs, community growth, and global advocacy initiatives.
             Robert is passionate about open source, collaboration, and helping technology teams connect with the people who build the future.
           </p>
@@ -196,7 +196,7 @@
             Moheeb is a developer relations engineer, creative technologist, and founder of LumenCanvas, a browser-native projection mapping platform.
             With over a decade of experience spanning art, robotics, and open-source software, he's worked with companies like AWS, SignalWire, and SORACOM
             to bring complex technologies to life through content, demos, and community.
-            As a partner at DevEco Consulting, Moheeb leads development on creative tools and developer-focused projects that blend art and engineering.
+            As a partner at devEco™ Consulting, Moheeb leads development on creative tools and developer-focused projects that blend art and engineering.
           </p>
           <button class="read-more-btn" @click="expanded.moheeb = !expanded.moheeb">
             {{ expanded.moheeb ? 'Show less' : 'Read more' }}
@@ -218,7 +218,7 @@
           <p class="member-bio">
             Theodore is a software engineer with over eight years of experience in benchmarking, CI/CD deployment, and AI model development on Arm64 hardware.
             He's built and hardened pipelines using tools like TensorFlow, Jenkins, and LAVA, bringing rigor and reliability to how technical work gets shipped and validated.
-            As a partner at devEco Consulting, Theodore brings deep infrastructure expertise and a collaborative, team-first approach to every engagement.
+            As a partner at devEco™ Consulting, Theodore brings deep infrastructure expertise and a collaborative, team-first approach to every engagement.
           </p>
           <button class="read-more-btn" @click="expanded.theodore = !expanded.theodore">
             {{ expanded.theodore ? 'Show less' : 'Read more' }}

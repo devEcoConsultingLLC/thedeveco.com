@@ -4,7 +4,7 @@
       <p class="label">You found the Bifrost</p>
       <h1>Heimdall</h1>
       <p class="heimdall-subtitle">
-        The all-seeing gateway to the devEco universe. You weren't supposed to find this.
+        The all-seeing gateway to the devEco™ universe. You weren't supposed to find this.
       </p>
     </div>
   </section>
@@ -15,7 +15,7 @@
         <h2>What is this place?</h2>
       </div>
       <p class="heimdall-text">
-        This is a hidden corner of the devEco ecosystem. If you found your way here, you were curious enough to look beyond the surface. That's exactly the kind of person we build for.
+        This is a hidden corner of the devEco™ ecosystem. If you found your way here, you were curious enough to look beyond the surface. That's exactly the kind of person we build for.
       </p>
       <p class="heimdall-text">
         More will appear here in time. For now, you've proven you pay attention to the details.

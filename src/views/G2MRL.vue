@@ -114,7 +114,7 @@ const deliverables: Deliverable[] = [
   {
     num: '06',
     title: 'GTM Intelligence Blueprint',
-    body: 'Structured plan for your GTM knowledge base. What sales, customer, and competitive data exists, what needs capturing, and how it connects to your sales AI stack. First seed of an ongoing KB that devEco builds and maintains.',
+    body: 'Structured plan for your GTM knowledge base. What sales, customer, and competitive data exists, what needs capturing, and how it connects to your sales AI stack. First seed of an ongoing KB that devEco™ builds and maintains.',
   },
   {
     num: '07',
@@ -452,7 +452,7 @@ onUnmounted(() => {
             <div>
               <h4>What We Do About It</h4>
               <p>
-                devEco audits every handoff in the motion, from first touch through expansion. Lead
+                devEco™ audits every handoff in the motion, from first touch through expansion. Lead
                 quality, sales acceptance, opportunity progression, contract terms, onboarding,
                 expansion triggers. We rebuild the connective tissue so the motion scales without
                 adding bodies at every gap.
@@ -536,7 +536,7 @@ onUnmounted(() => {
               </p>
             </div>
             <div>
-              <h4>devEco Builds the Intelligence Layer</h4>
+              <h4>devEco™ Builds the Intelligence Layer</h4>
               <p>
                 From there, we build and maintain a structured GTM knowledge base that feeds your
                 sales AI stack. Lead scoring with real criteria. Rep onboarding that graduates
@@ -559,7 +559,7 @@ onUnmounted(() => {
             <div class="g2mrl-kb-core">
               <div class="g2mrl-kb-core-title">GTM INTELLIGENCE</div>
               <div class="g2mrl-kb-core-sub">Source of Truth</div>
-              <div class="g2mrl-kb-core-meta">Built and Maintained by devEco</div>
+              <div class="g2mrl-kb-core-meta">Built and Maintained by devEco™</div>
             </div>
             <div class="g2mrl-kb-arrow-v"></div>
             <div class="g2mrl-kb-tier-label">Downstream Surfaces</div>

@@ -274,6 +274,16 @@ The Explore nav item is a non-clickable dropdown trigger containing external lin
 - Components: `PascalCase` (e.g., `ClientLogos.vue`, `HeaderNav.vue`)
 - Exception: `DevXRL.vue` (product name, not a generic view)
 
+### Brand Name & Trademark
+The brand renders as `devEco™` in all site copy: body prose, headings, data-array strings, `alt` text, and `<title>` tags. Lowercase `d`, capital `E`, no space before the symbol, literal `™` (U+2122) rather than `&trade;`.
+
+Do NOT add `™` to:
+- Domain-name labels (`devEco.io`, `devEco.app`) or any URL, `href`, `src`, or `mailto:` value
+- The GitHub org identifier `devEcoConsultingLLC`
+- Any lowercase `deveco` string (asset paths, the `deveco-cookie-consent` storage key, social handles)
+- The SVG logo lockups, which render the wordmark as separate `DEV` and `ECO` `<text>` nodes with hard-coded coordinates. Marking those is a design task, not a copy edit.
+- `public/trail-sandiego/`, which is a static export from another project
+
 ### Image Assets
 - Client/partner logos: `/public/clients/` — lowercase filenames, PNG/SVG/JPG
 - Team photos: `/public/team/` — `firstname.jpg`
